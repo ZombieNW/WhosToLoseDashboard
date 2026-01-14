@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Relief:wght@400;700&family=Righteous&display=swap');
+@import 'tailwindcss';
+
+html,
+body {
+	font-family: 'Righteous', sans-serif;
+}
+
+@font-face {
+	font-family: 'Blazed';
+	src: url('/blazed.woff2') format('woff2');
+}
+
+.blazed {
+	font-family: 'Blazed', sans-serif;
+	color: var(--color-red-800);
+}
