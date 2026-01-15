@@ -65,8 +65,9 @@
 	</div>
 	<div class="my-2 flex w-2/3 flex-col justify-center gap-2 md:flex-row">
 		{#if $page.data.registered}
-			<div
-				class="w-full rounded-lg bg-linear-to-b from-transparent to-gray-800/25 p-2 shadow-md outline-1 outline-gray-800 md:w-1/2 md:p-4"
+			<button
+				class="w-full rounded-lg bg-linear-to-b from-transparent to-gray-800/25 p-2 text-left shadow-md outline-1 outline-gray-800 hover:cursor-pointer md:w-1/2 md:p-4"
+				onclick={storyButtonFunction}
 			>
 				<h1 class="mb-2 text-2xl">Story Submission</h1>
 				<p class="mb-2 text-lg text-gray-800">
@@ -76,21 +77,17 @@
 					→ better chance to be on the show.
 				</p>
 				<div class="flex justify-center">
-					<button
-						class="mb-2 text-7xl hover:cursor-pointer"
-						onclick={storyButtonFunction}
-						title="Story Menu">📖</button
-					>
+					<h1 class="mb-2 text-7xl">📖</h1>
 				</div>
-			</div>
+			</button>
 		{:else}
 			<div
 				class="w-full rounded-lg bg-linear-to-b from-transparent to-gray-800/25 p-2 shadow-md outline-1 outline-gray-800 md:w-1/2 md:p-4"
 			>
 				<h1 class="mb-2 text-2xl">Apply to Play</h1>
 				<p class="mb-2 text-lg text-gray-800">
-					To apply to be a contestant, just click this magic button and read the rules. <span
-						class="italic">Please actually read the rules.</span
+					To be a contestant, just click this here magic button and <span class="italic"
+						>please actually read the rules.</span
 					>
 				</p>
 				<div class="flex justify-center">
