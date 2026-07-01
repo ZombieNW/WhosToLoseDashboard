@@ -28,5 +28,9 @@
 		"better-sqlite3": "^12.5.0",
 		"canvas-confetti": "^1.9.4",
 		"discord.js": "^14.25.1"
+	},
+	"overrides": {
+		"cookie": "^0.7.0",
+		"undici": "^6.27.0"
 	}
 }
