@@ -26,7 +26,7 @@
 	bind:this={dialog}
 	onclose={closeModal}
 	onclick={handleBackdropClick}
-	class="open:animate-in open:fade-in open:zoom-in-95 m-auto h-3/4 w-full rounded-xl border-none p-0 shadow-2xl duration-300 backdrop:bg-slate-900/50 md:w-2/3"
+	class="open:animate-in open:fade-in open:zoom-in-95 m-auto h-5/6 w-full rounded-xl border-none p-0 shadow-2xl duration-300 backdrop:bg-slate-900/50 md:w-5/6"
 >
 	<div
 		class="flex h-full w-full flex-col overflow-hidden bg-linear-to-b from-gray-100 to-blue-100 p-6"

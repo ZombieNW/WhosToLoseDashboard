@@ -70,12 +70,7 @@
 				onclick={storyButtonFunction}
 			>
 				<h1 class="mb-2 text-2xl">Story Submission</h1>
-				<p class="mb-2 text-lg text-gray-800">
-					Please submit your stories to be used on the show. <span class="hidden md:inline"
-						>Click</span
-					><span class="inline md:hidden">Tap</span> the conveniently placed Book Emoji. More stories
-					→ better chance to be on the show.
-				</p>
+				<p class="mb-2 text-lg text-gray-800">More stories -> better chance to be on the show.</p>
 				<div class="flex justify-center">
 					<h1 class="mb-2 text-7xl">📖</h1>
 				</div>
@@ -84,11 +79,10 @@
 			<div
 				class="w-full rounded-lg bg-linear-to-b from-transparent to-gray-800/25 p-2 shadow-md outline-1 outline-gray-800 md:w-1/2 md:p-4"
 			>
-				<h1 class="mb-2 text-2xl">Apply to Play</h1>
+				<h1 class="mb-2 text-2xl">Contestant Sign Up</h1>
 				<p class="mb-2 text-lg text-gray-800">
-					To be a contestant, just click this here magic button and <span class="italic"
-						>please actually read the rules.</span
-					>
+					To apply, click the magic button and
+					<span class="text-2xl italic">please actually read the rules.</span>
 				</p>
 				<div class="flex justify-center">
 					<MagicButton onClickFunction={magicButtonFunction} />
@@ -104,7 +98,7 @@
 </div>
 
 <footer class="sticky bottom-0 text-center text-gray-900">
-	<p>Made with ❤️ by ZombieNW {new Date().getFullYear()}</p>
+	<p>by ZombieNW with ❤️ {new Date().getFullYear()}</p>
 </footer>
 
 <style>

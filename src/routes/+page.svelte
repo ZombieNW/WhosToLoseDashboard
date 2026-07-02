@@ -15,7 +15,7 @@
 </div>
 
 <footer class="sticky bottom-0 text-center text-gray-900">
-	<p>Made with ❤️ by ZombieNW {new Date().getFullYear()}</p>
+	<p>by ZombieNW with ❤️ {new Date().getFullYear()}</p>
 </footer>
 
 <style>
