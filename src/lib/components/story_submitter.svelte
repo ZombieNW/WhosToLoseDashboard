@@ -57,7 +57,7 @@
 	<button
 		onclick={submitStory}
 		disabled={!storyTitle || !storyDetails}
-		class="my-6 w-sm rounded-lg bg-blue-600 px-4 py-2 text-center text-sm font-medium text-white shadow-sm transition-all hover:cursor-pointer hover:bg-blue-700 disabled:cursor-not-allowed disabled:bg-gray-400"
+		class="my-6 w-sm rounded-lg bg-linear-to-b from-indigo-500 to-indigo-700 px-4 py-2 text-center text-sm font-medium text-white shadow-sm transition-all hover:cursor-pointer hover:from-indigo-700 hover:to-indigo-900 disabled:cursor-not-allowed disabled:from-gray-400 disabled:to-gray-500"
 	>
 		Submit Story
 	</button>

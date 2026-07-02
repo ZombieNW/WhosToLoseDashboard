@@ -215,7 +215,7 @@
 </script>
 
 <button
-	class="mb-2 flex w-full items-center justify-center rounded-lg bg-linear-to-b from-indigo-500 to-indigo-700 p-2 shadow-md transition-all duration-200 hover:cursor-pointer hover:from-indigo-700 hover:to-indigo-900 md:w-2/3"
+	class="mb-2 flex w-full items-center justify-center rounded-lg bg-linear-to-b from-indigo-400 to-indigo-600 p-2 shadow-md transition-all duration-200 hover:cursor-pointer hover:from-indigo-500 hover:to-indigo-700 md:w-2/3"
 	bind:this={ideaButton}
 	onclick={generateIdea}
 >
