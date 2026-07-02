@@ -1,38 +1,11 @@
-# sv
+# Who's To Lose Dashboard
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+*A game show about lying, improv, and sleuthery.*
 
-## Creating a project
+## What?
 
-If you're seeing this, you've probably already done this step. Congrats!
+This is the dashboard for users to sign up and submit backstories for my game show, Who's to Lose.
 
-```sh
-# create a new project in the current directory
-npx sv create
+## Stack
 
-# create a new project in my-app
-npx sv create my-app
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```sh
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```sh
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+Sveltekit, better-sqlite3, discord.js
