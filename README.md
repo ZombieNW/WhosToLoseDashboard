@@ -9,3 +9,7 @@ This is the dashboard for users to sign up and submit backstories for my game sh
 ## Stack
 
 Sveltekit, better-sqlite3, discord.js
+
+## Usage
+
+After building, copy the `.env` and do a quick `mkdir db`.
